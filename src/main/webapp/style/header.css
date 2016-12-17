@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+/*页面header部分的样式*/
+body, html {
+	margin: 0;
+}
+
+#div_head {
+	background-color: rgb(30, 144, 255);
+	height: 4em;
+	display: flex;
+	justify-content: space-between;
+}
+
+#div_head>#span_title {
+	color: white;
+	font-family: cursive;
+	font-size: 2em;
+	margin: 0 1em;
+}
+
+#input_search {
+	padding: 0.2em;
+	height: 2em;
+	border: none;
+	width: 16em;
+	margin: 1em;
+}
+
+#div_head_userinfo {
+	display: flex;
+	vertical-align: sub;
+	margin: 0.8em;
+}
+
+#div_head_userinfo #img_avatar {
+	height: 2em;
+	border-radius: 2em;
+	border: white solid 0.2em;
+}
+
+#div_head_userinfo>#span_username, #div_head_userinfo>#span_logout {
+	color: white;
+	font-size: 1.5em;
+	margin: 0 0.3em;
+	display: block;
+	line-height: 1.5em;
+}
+
+#div_head a:visited {
+	color: white;
+}
+
+#div_head a {
+	text-decoration: none;
+}
